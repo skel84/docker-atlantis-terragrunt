@@ -3,7 +3,7 @@ FROM runatlantis/atlantis:latest
 RUN apk add unzip make curl
 
 # TODO: verify GPG
-ARG TERRAGRUNT_VERSION='0.21.7'
+ARG TERRAGRUNT_VERSION='0.23.3'
 
 RUN \
 # Download the binary and checksum
